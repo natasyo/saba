@@ -8,7 +8,8 @@ $(document).ready(function() {
         responsive: [{
             breakpoint: 992,
             settings: {
-                autoplay: true,autoplaySpeed: 2000,
+                autoplay: true,
+                autoplaySpeed: 2000,
                 arrows: false
             }
         }, ]
@@ -35,7 +36,7 @@ $(document).ready(function() {
         responsive: [{
             breakpoint: 992,
             settings: {
-                autoplay: false,
+                autoplay: true,
                 arrows: false
             }
         }, ]

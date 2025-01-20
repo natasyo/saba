@@ -6,7 +6,7 @@ $(document).ready(function () {
         autoplaySpeed: 3000,
         dots:true
     });
-    if($(window).width()>991){
+    if($(window).width()<991){
         $('.header__logo').slick({
             arrows:false,
             autoplay: true,

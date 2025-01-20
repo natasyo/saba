@@ -8,7 +8,7 @@ $(document).ready(function() {
         responsive: [{
             breakpoint: 992,
             settings: {
-                autoplay: true,
+                autoplay: true,autoplaySpeed: 2000,
                 arrows: false
             }
         }, ]
